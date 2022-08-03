@@ -5,7 +5,7 @@ import com.bobocode.svydovets.annotation.Configuration;
 import com.bobocode.svydovets.beans.scanner.quoter.books.DiscworldQuoter;
 import com.bobocode.svydovets.beans.scanner.quoter.books.DuneQuoter;
 
-@Configuration()
+//@Configuration()
 public class FantasyBookshelf implements Bookshelf {
 
     @Bean("discworld")
