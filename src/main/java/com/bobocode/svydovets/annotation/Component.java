@@ -5,6 +5,8 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+import com.bobocode.svydovets.beans.definition.BeanDefinition;
+
 /**
  * This annotation is a marker for the Bring that Bring have to create an instance of the class that marked with this
  * annotation and then manage lifecycle of created bean.
@@ -16,5 +18,10 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Component {
 
+    /**
+     * Specify the name of {@link BeanDefinition} associated with annotated class.
+     *
+     * @return the suggested component name (if not empty)
+     */
     String value() default "";
 }

@@ -56,7 +56,7 @@ class DefaultListableBeanFactoryTest {
         assertTrue(beans.get("hp").getClass().isAssignableFrom(HarryPotterQuoter.class));
         assertTrue(beans.containsKey("discworld"));
         assertTrue(beans.containsKey(FantasyBookshelf.class.getName()));
-        assertEquals(7, beans.size());
+        assertEquals(8, beans.size());
     }
 
     @Test

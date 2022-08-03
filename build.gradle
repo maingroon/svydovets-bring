@@ -67,9 +67,9 @@ checkstyleTest {
 
 sonarqube {
     properties {
-        property 'sonar.projectKey', 'maingroon_svydovets-bring'
-        property 'sonar.organization', 'maingroon'
-        property 'sonar.host.url', 'https://sonarcloud.io'
+        property "sonar.projectKey", "maingroon_svydovets-bring"
+        property "sonar.organization", "maingroon"
+        property "sonar.host.url", "https://sonarcloud.io"
     }
 }
 

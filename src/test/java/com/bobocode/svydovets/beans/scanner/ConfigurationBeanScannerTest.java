@@ -36,7 +36,7 @@ class ConfigurationBeanScannerTest {
         var duneQuoterBeanName = DuneQuoter.class.getName();
         var duneQuoter = beanDefinitions.get(duneQuoterBeanName);
 
-        assertEquals(3, beanDefinitions.size());
+        assertEquals(4, beanDefinitions.size());
         assertNotNull(beanDefinitions.get(beanName));
         assertNull(beanDefinitions.get(discworldQuoterBeanName));
         assertNotNull(beanDefinitions.get(duneQuoterBeanName));
